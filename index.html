@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Cat Generator</title>
+    <!--<link rel="stylesheet" href="assets/css/style.css" />-->
+    
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/img/logo.svg" rel="shortcut icon" type="image/svg+xml">
+</head>
+
+<body>
+    <main class="main">
+        <section class="cats">
+            <div class="container">
+                <div class="cat-block">
+                    <h1>Cat Generator</h1>
+                    <label for="errorCodeInput">Enter an error code</label>
+                    <div class="get-cat-block">
+                        <input id="errorCodeInput" placeholder="ex: 404" required type="number">
+                        <button id="getCat" type="button">Get a cat 😺</button>
+                        <a href="more.html"><button id="anotherButton" type="button">More cats 😽</button></a>
+                    </div>
+                    <div id="resultMessage"></div>
+                    <img alt="cat" id="catImage" src="assets/img/placeholder_image.png">
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
